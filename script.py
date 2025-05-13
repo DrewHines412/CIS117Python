@@ -4,9 +4,6 @@
 # DictReader reads data and maps each row to a dictionary
 # the writer writes data to the csv file
 #
-# Version control is added to this project to track the changes and updates.
-# This enables easier collaboration and management of the code.
-
 import csv
 
 try:
