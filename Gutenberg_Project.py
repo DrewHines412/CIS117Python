@@ -1,3 +1,7 @@
+#Andrew Hines
+#05/14/2025
+#Guttenberg Final Project
+
 import ssl
 import urllib.request
 import tkinter as tk
@@ -67,7 +71,7 @@ def fetch_text(url):
 
 def get_top_words(text, n=10):
     ''' Extract the top n words from the given text using regular expressions and Counter class'''
-    words = re.findall(r'\b[a-zA-Z]{2,}\b', text.lower())
+    words = re.findall(r'\b[a-zA-Z]{4,}\b', text.lower())
     counter = Counter(words)
     return counter.most_common(n)
 
